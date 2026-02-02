@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* CARD SECTIONS */
+.card {
+  background: white;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+/* SKILLS */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #eef2f5;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* EXPERIENCE */
+.date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  margin-left: 20px;
+}
+
+/* CONTACT */
+.contact a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f2933;
+  color: white;
+  margin-top: 40px;
+}
